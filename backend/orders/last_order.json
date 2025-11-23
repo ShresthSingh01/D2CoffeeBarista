@@ -1,0 +1,9 @@
+{
+    "drinkType": "mocha",
+    "size": "small",
+    "milk": "regular",
+    "extras": [
+        "sugar"
+    ],
+    "name": "No Extras"
+}

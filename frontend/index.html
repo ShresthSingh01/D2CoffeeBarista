@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coffee Barista Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>☕ Voice Barista</h1>
+
+    <button id="micButton">🎤 Speak</button>
+    <button id="resetButton">🔄 New Order</button>
+
+    <p id="status">Click “Speak” to start ordering</p>
+
+    <div id="orderSummary" class="hidden">
+        <h3>Order Summary</h3>
+        <pre id="summaryText"></pre>
+    </div>
+
+    <div id="outputBox">
+        <pre id="outputText"></pre>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
